@@ -13,7 +13,7 @@ function RegistrationForm() {
     address: ""
   });
 
-  // Handle normal input change
+ 
   const handleChange = (e) => {
     const { name, value } = e.target;
 
@@ -23,7 +23,6 @@ function RegistrationForm() {
     });
   };
 
-  // Handle checkbox (hobbies)
   const handleCheckbox = (e) => {
     const { value, checked } = e.target;
 
@@ -95,7 +94,7 @@ function RegistrationForm() {
         />
         <br /><br />
 
-        {/* Gender */}
+      
         <label>Gender:</label>
         <input
           type="radio"
@@ -112,7 +111,6 @@ function RegistrationForm() {
         /> Female
         <br /><br />
 
-        {/* Course Dropdown */}
         <label>Course:</label>
         <select
           name="course"
@@ -126,7 +124,6 @@ function RegistrationForm() {
         </select>
         <br /><br />
 
-        {/* Hobbies Checkbox */}
         <label>Hobbies:</label>
         <input
           type="checkbox"
@@ -147,7 +144,7 @@ function RegistrationForm() {
         /> Traveling
         <br /><br />
 
-        {/* Address */}
+    
         <textarea
           name="address"
           placeholder="Enter Address"
